@@ -7,5 +7,5 @@ def call(Map config=[:]) {
     issueTypeName: "${config.issueTypeName}"
   ]
   def render = renderTemplate(rawBody,binding)
-  bat('curl -D- -u haithamodehodeh@gmail.com:uZVMWwRxMQt07TyYDPTE09A3 -X POST --data "'+render+'" -H "Content-Type: application/json" https://testecom.atlassian.net/rest/api/2/issue')
+  bat('curl -D- -u jira-jenkins -X POST --data "'+render+'" -H "Content-Type: application/json" https://testecom.atlassian.net/rest/api/2/issue')
 }
