@@ -7,5 +7,5 @@ def call(Map config=[:]) {
     issueTypeName: "${config.issueTypeName}"
   ]
   def render = renderTemplate(rawBody,binding)
-  bat('curl -D- -u $JIRA_CREDENTIALS -X POST --data-binary "@C:\\Users\\haith\\Desktop\\add.txt" -H "Content-Type:application/json" https://testecom.atlassian.net/rest/api/2/issue')
+  bat('curl -D- -u $JIRA_CREDENTIALS -X POST --data "@C:\\Users\\haith\\Desktop\\add.txt" -H "Content-Type:application/json" https://testecom.atlassian.net/rest/api/2/issue')
    }
