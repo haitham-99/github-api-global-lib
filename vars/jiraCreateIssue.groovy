@@ -8,5 +8,5 @@ def call(Map config=[:]) {
   ]
   def render = renderTemplate(rawBody,binding)
 //   bat('curl -D- -u $JIRA_CREDENTIALS -X POST --data "@C:\\Users\\haith\\Desktop\\add.txt" -H "Content-Type:application/json" https://testecom.atlassian.net/rest/api/2/issue')
-  bat 'curl -D- -u haithamodehodeh@gmail.com:XuQX2M69kXOwPwXHoOwd2221 -X POST --data "@C:\\Users\\haith\\Desktop\\add.txt" -H "Content-Type:application/json" https://testecom.atlassian.net/rest/api/2/issue/'
+  bat 'curl -D- -u $JIRA_CREDENTIALS -X POST --data "@C:\\Users\\haith\\Desktop\\add.txt" -H "Content-Type:application/json" https://testecom.atlassian.net/rest/api/2/issue/'
    }
