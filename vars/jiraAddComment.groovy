@@ -11,7 +11,7 @@ def call(Map config=[:]) {
   ]
   def render = renderTemplate(rawBody,binding)
   def jiraServer = "https://jiraserver"
-  sh """
+  bat """
     curl -D- -u $JIRA_CREDENTIALS -X POST --data \"${render}\" -H \"Content-Type: application/json\" $jiraServer/rest/api/2/issue/${issueId}/comment
   """
 }
