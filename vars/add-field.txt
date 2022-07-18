@@ -1,13 +1,13 @@
 {
-    \"fields\": {
-       \"project\":
+    "fields": {
+       "project":
        {
-          \"key\": \"DEP\"
+          "key": "DEP"
        },
-       \"summary\": \"Issue created from Jenkins\",
-       \"description\": \"Tests failed here is the report:http://localhost:8080/job/ecommerce_website_testing/allure\",
-       \"issuetype\": {
-          \"name\": \"Bug\"
+       "summary": "Issue created from Jenkins",
+       "description": "Tests failed here is the report:http://localhost:8080/job/ecommerce_website_testing/allure",
+       "issuetype": {
+          "name": "Bug"
        }
    }
 }
