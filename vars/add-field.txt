@@ -1,13 +1,31 @@
+
 {
-    "fields": {
-       "project":
-       {
-          "key": "DEP"
-       },
-       "summary": "Issue created from Jenkins",
-       "description": "Tests failed here is the report:http://localhost:8080/job/ecommerce_website_testing/allure",
-       "issuetype": {
-          "name": "Bug"
-       }
-   }
+
+ "fields": {
+
+       "project":   
+
+{                        "key": "DEP"                 }
+,
+
+        "summary": "Sample Test ticket from Jenkins.",
+
+        "description": "Creating of an issue using project keys and issue type names using the REST API",
+
+       "issuetype":
+
+{                        "name": "Bug"             }
+,
+
+     "customfield_10002": 
+
+{                    "id": "1"                  }
+,
+
+
+     "assignee" :
+
+{                  "name" :  "abc"              }
+ }
+
 }
