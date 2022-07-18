@@ -2,12 +2,12 @@
     \"fields\": {
        \"project\":
        {
-          \"key\": \"DEP\"
+          \"key\": \"$key\"
        },
-       \"summary\": \"Issue created from Jenkins\",
-       \"description\": \"Tests failed here is the report:http://localhost:8080/job/ecommerce_website_testing/allure\",
+       \"summary\": \"$summary\",
+       \"description\": \"$description\",
        \"issuetype\": {
-          \"name\": \"Bug\"
+          \"name\": \"$issueTypeName\"
        }
    }
 }
