@@ -8,7 +8,7 @@
        \"description\": \"Tests failed here is the report:http://localhost:8080/job/ecommerce_website_testing/allure\",
        \"issuetype\": 
        {
-          \"name\": \"Bug\",
+          \"name\": \"Bug\",}
        }
        }
 }"
