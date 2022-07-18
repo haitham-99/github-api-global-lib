@@ -1,9 +1,13 @@
 {
-\"fields\":{
-       \"project\":{\"key\": \"DEP\"},
-       \"summary\":\"Issue created from Jenkins\",
-       \"description\":\"Tests failed here is the\",
-       \"issuetype\":{\"name\":\"Bug\"},
-         "customfield_10002":{"id": "1"}
+    \"fields\": {
+       \"project\":
+       {
+          \"key\": \"DEP\"
+       },
+       \"summary\": \"Issue created from Jenkins\",
+       \"description\": \"Tests failed here is the report:http://localhost:8080/job/ecommerce_website_testing/allure\",
+       \"issuetype\": {
+          \"name\": \"Bug\"
        }
+   }
 }
